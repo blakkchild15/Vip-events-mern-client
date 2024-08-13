@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api": "https://vip-events-mern-server.onrender.com",
+      "/api": "http://localhost:5000",
     },
   },
 });
